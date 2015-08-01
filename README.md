@@ -10,6 +10,12 @@
 [Done] User should be displayed the username, name, and body for each tweet
 
 
+[Done] User can view his profile through an icon in the action bar.
+
+
+[Done] User can see his home timeline and his mentions by switching between them with tabs.
+
+
 User should be displayed the relative timestamp for each tweet "8m", "7h"
 
 
