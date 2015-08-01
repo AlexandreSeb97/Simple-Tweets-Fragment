@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+tools:context="com.codepath.apps.mysimpletweets.TimelineActivity">
+
+    <item android:showAsAction="ifRoom"
+        android:clickable="false"
+        android:title="Tweet!" />
+<item android:id="@+id/action_tweet"
+    android:icon="@drawable/tweet"
+    android:title="@string/action_tweet"
+    android:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/miProfile"
+        android:showAsAction="ifRoom"
+        android:icon="@drawable/ic_profile"
+        android:title="Profile"
+        android:onClick="onProfileView"
+        />
+</menu>
